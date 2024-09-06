@@ -44,7 +44,7 @@ parser.add_argument(
 	"-o",
 	dest = "output",
 	metavar = "OUTPUT",
-	default = "results/impred.txt", 
+	default = "results/pred_im.csv", 
 	help = "predictions"
 	)
 
