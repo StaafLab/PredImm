@@ -36,3 +36,5 @@ conda activate predimm
 ./im_pred.py -i data/tcga_fpkm.csv
 ```
 the -i flag is used to give the (relative) path to the input file
+
+%% add something about specifying output file name
