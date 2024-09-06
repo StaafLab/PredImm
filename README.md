@@ -2,8 +2,7 @@
 
 ## About
 
- Predict 
- **Imm**une **Imm**ediatly
+ **Pred**ict **I**mmune I**mm**ediatly
 
  ## Installation
 
@@ -36,4 +35,4 @@ To run the script
 conda activate predimm
 ./im_pred.py -i data/tcga_fpkm.csv
 ```
-
+the -i flag is used to give the (relative) path to the input file
