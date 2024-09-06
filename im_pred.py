@@ -8,7 +8,6 @@ Description:
 TODO:
     - check that genes are not entrez IDs
     - check if data need transposing
-    - provide option to provide full path to model?
 """
 
 import sys
