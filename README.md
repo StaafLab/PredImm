@@ -4,6 +4,8 @@
 
  **Pred**ict **I**mmune I**mm**ediatly
 
+ 
+
  ## Installation
 
 To use PredImm you will first need to install conda, see https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
@@ -16,7 +18,7 @@ cd PredImm
 conda env create -f environment/predimm.yml
 ```
 
-## Getting started
+## Using the predictor
 
 PredImm comes with TCGA TNBC samples as an exmaple data set. To run this example, activate the conda environment and run the notebook or the script.
 
@@ -37,4 +39,12 @@ conda activate predimm
 ```
 the -i flag is used to give the (relative) path to the input file
 
-%% add something about specifying output file name
+## Specifying output files
+
+If you run the notebook, you can specify your own output file within the notebook. 
+When using the 
+
+
+
+
+PredImm has been developed on Rocky Linux 8.8 and is not tested on other operating systems.
