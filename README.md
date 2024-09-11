@@ -1,8 +1,10 @@
-# PredImm
+ # **Pred**ict **I**mmune I**mm**ediatly (PredImm)
 
 ## About
 
- **Pred**ict **I**mmune I**mm**ediatly
+PredImm is an immmune classifier developed for triple-negative breast cancer gene expression samples with fpkm values. 
+
+<img src='./PredImm_development.png' alt='TMArQ pipeline' width=60%>
 
  
 
