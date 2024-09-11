@@ -53,7 +53,7 @@ Note: PredImm has been developed on Rocky Linux 8.8 and is not tested on other o
 
 ## License
 
-Copyright (C) 2023 Suze Roostee
+Copyright (C) 2024 Suze Roostee
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
