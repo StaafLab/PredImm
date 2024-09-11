@@ -4,7 +4,7 @@
 
 PredImm is an immmune classifier developed for triple-negative breast cancer gene expression samples with fpkm values. 
 
-<img src='./PredImm_development.png' alt='TMArQ pipeline' width=60%>
+<img src='./predimm_development.png' alt='TMArQ pipeline' width=60%>
 
  
 
