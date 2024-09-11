@@ -3,10 +3,10 @@
 ## About
 
 PredImm is an immmune classifier developed for triple-negative breast cancer gene expression samples with fpkm values. 
+It is derived from the Lehmann immunomodulatory labels and developed with a Random Forest architecture. 
+For more information on PredImm, see the associated manuscript/article: [link here]
 
 <img src='./predimm_development.png' alt='TMArQ pipeline' width=60%>
-
- 
 
  ## Installation
 
@@ -24,7 +24,7 @@ conda env create -f environment/predimm.yml
 
 PredImm comes with TCGA TNBC samples as an exmaple data set. To run this example, activate the conda environment and run the notebook or the script.
 
-To run the notebook
+**To run the notebook**
 ```
 conda activate predimm
 jupyter notebook
@@ -33,20 +33,22 @@ and open im_pred.ipynb
 
 or start your code interpretered and choose predimm as kernel. 
 
-To run the script
+Then follow the steps in the notebook.
+
+**To run the script**
 
 ```
 conda activate predimm
 ./im_pred.py -i data/tcga_fpkm.csv
 ```
-the -i flag is used to give the (relative) path to the input file
+the -i flag is used to give the (relative) path to the input file.
 
 ## Specifying output files
 
 If you run the notebook, you can specify your own output file within the notebook. 
-When using the 
+If using the script, you can specify a different output file name using the -o flag. 
 
 
 
 
-PredImm has been developed on Rocky Linux 8.8 and is not tested on other operating systems.
+Note: PredImm has been developed on Rocky Linux 8.8 and is not tested on other operating systems.
