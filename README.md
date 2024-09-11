@@ -49,6 +49,15 @@ If you run the notebook, you can specify your own output file within the noteboo
 If using the script, you can specify a different output file name using the -o flag. 
 
 
-
-
 Note: PredImm has been developed on Rocky Linux 8.8 and is not tested on other operating systems.
+
+## License
+
+Copyright (C) 2023 Suze Roostee
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
+
