@@ -10,7 +10,7 @@ For more information on PredImm, see the associated manuscript/article: [link he
 
  ## Installation
 
-To use PredImm you will first need to install conda, see https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+To use PredImm you will first need to install conda, see https://docs.anaconda.com/miniconda/
 
 To run the code in this repository, the easiest is to clone it and then install the requirements
 
