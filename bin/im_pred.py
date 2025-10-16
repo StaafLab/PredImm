@@ -58,7 +58,7 @@ fpkm = pd.read_csv(fpkm_file, sep = ',', header = 0, index_col = 0)
 
 fpkm = np.transpose(fpkm)
 
-genes = pd.read_csv("results/genes_ordered.csv")
+genes = pd.read_csv("model/genes_ordered.csv")
 gene_list = genes['gene'].tolist()
 
 ##here we make sure the columns are in the right order
