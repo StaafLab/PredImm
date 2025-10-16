@@ -6,7 +6,7 @@ PredImm is an immune classifier developed for triple-negative breast cancer samp
 It is derived from the [Lehmann et al. TNBCtype](https://www.jci.org/articles/view/45014) Immunomodulatory subtype labels and developed with a Random Forest architecture. 
 For more information on PredImm, see the associated published article: [link here when available]
 
-<img src='./predimm_development.png' alt='TMArQ pipeline' width=60%>
+<img src='./predimm_development.png' alt='TMArQ pipeline' width=90%>
 
  ## Installation
 
