@@ -4,7 +4,7 @@
 
 PredImm is an immune classifier developed for triple-negative breast cancer samples with FPKM gene expression values. 
 It is derived from the [Lehmann et al. TNBCtype](https://www.jci.org/articles/view/45014) Immunomodulatory subtype labels and developed with a Random Forest architecture. 
-For more information on PredImm, see the associated published article: [link here when available]
+For more information on PredImm, see the associated published article by [Roostee et al.](https://aacrjournals.org/cancerrescommun/article/5/12/2157/770951/Stand-alone-Transcriptional-Immune-Response)
 
 <img src='./predimm_development.png' alt='TMArQ pipeline' width=90%>
 
@@ -68,6 +68,10 @@ chmod +x ./bin/im_pred.py
 # run the analysis on the example dataset
 singularity exec --bind /path/to/PredImm:/workspace predimm.sif bash -c "source /opt/miniconda3/etc/profile.d/conda.sh; conda activate predimm; ./bin/im_pred.py -i data/TCGA_fpkm.csv"
 ```
+
+## Citation
+
+If you use PredImm, please cite the article ["Stand-alone Transcriptional Immune Response Prediction in Primary Triple-Negative Breast Cancer"](https://aacrjournals.org/cancerrescommun/article/5/12/2157/770951/Stand-alone-Transcriptional-Immune-Response) by Roostee et al.
 
 ## License
 
